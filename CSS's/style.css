@@ -26,7 +26,7 @@ div.nav nav {
 div.nav nav ul li {
     list-style: none;
     display: inline;
-    margin: 0 200px 0 120px;
+    margin: 0 198px 0 120px;
 }
 
 
@@ -49,6 +49,65 @@ div.recstitle h1 {
 
 div.rec div.rectitle h1 {
     font-family: "Zain", sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
+    font-size: 52px;
+    padding: 0;
+    margin: 0;
+}
+
+article div.rec {
+    width: 1200px;
+    height: auto;
+    padding: 20px 0 0 40px;
+    margin: 20px 0 0 45px;
+    max-width: 1700px;
+    background-color: rgb(248, 222, 190);
+    border-radius: 22px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    position: relative;
+}
+
+div.recimg {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+div.recimg img {
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    width: 425px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100%;
+    max-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+}
+
+
+ul.recingr li {
+    list-style: none;
+}
+
+
+ol.recmdpp li {
+    list-style: none;
+}
+
+
+ul.recingr li p {
+    font-size: 18px;
+}
+
+
+ol.recmdpp li p {
+    font-size: 18px;
 }
