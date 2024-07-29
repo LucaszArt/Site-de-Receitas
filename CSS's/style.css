@@ -5,6 +5,7 @@ body {
     overflow-x: hidden;
 }
 
+
 div.nav {
     background-color: rgb(210, 180, 140);
     padding: 0;
@@ -47,6 +48,7 @@ div.recstitle h1 {
     color: rgb(77, 77, 77);
 }
 
+
 div.rec div.rectitle h1 {
     font-family: "Zain", sans-serif;
     font-weight: 600;
@@ -66,6 +68,7 @@ div.rec div.rectitle h1.B {
     margin: 0;
 }
 
+
 article div.rec {
     width: 1200px;
     height: auto;
@@ -79,6 +82,7 @@ article div.rec {
     position: relative;
 }
 
+
 div.recimg {
     flex: 1;
     display: flex;
@@ -87,12 +91,14 @@ div.recimg {
     margin-right: 20px;
 }
 
-div.recimg img {
+
+div.recimg img.Panquecas {
     float: right;
     padding: 0 0 0 0;
     margin: 0 0 20px 20px;
     border-radius: 10px;
-    width: 425px;
+    width: 465px;
+    height: 750px;
     display: block;
     position: absolute;
     top: 20px;
@@ -146,10 +152,16 @@ ol.recmdpp li {
 
 
 ul.recingr li p {
-    font-size: 18px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 
 ol.recmdpp li p {
-    font-size: 18px;
+    font-size: 20px;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
