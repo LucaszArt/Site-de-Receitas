@@ -7,7 +7,7 @@ body {
 
 
 div.nav {
-    background-color: rgb(210, 180, 140);
+    background-color: rgb(204, 170, 125);
     padding: 0;
     margin: 0;
     width: 100%;
@@ -36,6 +36,8 @@ div.nav nav ul li a {
     color: rgb(37, 80, 37);
     font-size: 28px;
     position: relative;
+    font-weight: 600;
+    font-style: normal;
 }
 
 
@@ -48,16 +50,20 @@ div.nav nav ul li a:hover {
 
 
 div.recstitle h1 {
-    font-size: 45px;
+    font-size: 60px;
     color: rgb(77, 77, 77);
+    font-family: "Zain", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    padding: 0 0 0 45px;
 }
 
 
 div.rec div.rectitle h1 {
     font-family: "Zain", sans-serif;
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
-    font-size: 52px;
+    font-size: 60px;
     padding: 0;
     margin: 0;
 }
@@ -161,6 +167,22 @@ div.recimg img.Capuccino {
 }
 
 
+div.recimg img.Smoothie {
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    width: 470px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100%;
+    max-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+}
+
+
 ul.recingr li {
     list-style: none;
 }
@@ -184,4 +206,13 @@ ol.recmdpp li p {
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-style: normal;
+}
+
+p.cpy {
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 19px;
+    color: rgb(90, 90, 90);
+    padding: 0 0 0 45px;
 }
