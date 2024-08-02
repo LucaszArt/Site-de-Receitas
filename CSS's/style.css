@@ -80,7 +80,7 @@ div.rec div.rectitle h1.B {
 
 
 article div.rec {
-    width: 1200px;
+    width: 91%;
     height: auto;
     padding: 20px 0 0 40px;
     margin: 60px 0 0 45px;
@@ -173,6 +173,87 @@ div.recimg img.Smoothie {
     margin: 0 0 20px 20px;
     border-radius: 10px;
     width: 470px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100%;
+    max-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+}
+
+
+div.recimg img.Beiju {
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    width: 510px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100%;
+    max-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+}
+
+
+div.recimg img.Cookie {
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    width: 525px;
+    height: 400px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100%;
+    max-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+}
+
+
+div.recimg img.Pão {
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    width: 515px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100%;
+    max-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+}
+
+
+div.recimg img.Avocado {
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    width: 525px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    max-width: 100%;
+    max-width: calc(100% - 40px);
+    max-height: calc(100% - 40px);
+}
+
+
+div.recimg img.Misto {
+    float: right;
+    padding: 0 0 0 0;
+    margin: 0 0 20px 20px;
+    border-radius: 10px;
+    width: 500px;
     display: block;
     position: absolute;
     top: 20px;
